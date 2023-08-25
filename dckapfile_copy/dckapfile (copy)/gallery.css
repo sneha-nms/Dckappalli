@@ -1,0 +1,62 @@
+body{
+    width:100%;
+    height:auto;
+}
+
+.v2k {
+        width: 100px;
+        display: flex;
+        padding: 2px 2px;
+    }
+
+.k2v{
+    display: flex;
+}
+
+.m2v{
+    width: 100px;
+    display: flex;
+    padding: 2px 2px;
+}
+.p2v{
+    display: flex;
+}
+
+.logo{
+    padding:30px;
+    width:364px;
+    height:300px;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.logo :hover{
+    opacity: 2s;
+    background-color:rgba(0, 0,0, 8);
+}
+
+.footer{
+    background-color: black;
+    width: 1300px;
+    height: 80px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+p{
+    padding:35px
+}
+
+h1{
+
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: 700;
+    text-align: center;
+    
+    justify-content: center;
+}
+

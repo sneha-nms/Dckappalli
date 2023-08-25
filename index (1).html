@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> web page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <ul>
+                <li >
+                    <button class="button"> <a class=" ba" href="# தமிழ்"> தமிழ்</a>
+                </li>
+                <li >
+                    <a href="#contact">Contact Us</a>
+                </li>
+                <li>
+                   <a href="#services">Services</a>
+                </li>
+            
+                <!-- <li> 
+                   <a href="#about">About</a>
+                        <ul class="dropdown">
+                            <li><a href="#"> Highitghts</a></li>
+                            <li><a href="#"> Eligibility Criteria</a></li>
+                            <li><a href="#"> Selection process</a></li>
+                            <li><a href="#"> FAQ</a></li>
+                            
+                        </ul>
+                </li> -->
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">About</a>
+                    <div class="dropdown-content">
+                      <a href="#">Highitghts</a>
+                      <a href="#">Eligibility Criteria</a>
+                      <a href="#">Selection process</a>
+                      <a href="#">FAQ</a>
+                    </div>
+                  </li>
+                <li>
+                   <a href="#Home">Home</a>
+                </li>
+       <li class="left">
+      <a > <img src="dckap-palli-logo.png" alt="DCKAP_Palli" ></a>
+            <!-- <li class="left"><a><i class="fa-solid fa-bolt fa-xl"></i>Zpark</a></li> -->
+                </ul>
+        </div>
+  
+  
+    
+    
+    <div class="main">
+                <h1> DCKAP<span>PALLI</span> </h1>
+                <h2 id="palli"> Your Successful Career Starts Here</h2>
+              <div class="para">
+                
+                 <p> 
+                    Thank you for visiting us.
+                    <br>
+                    Application for 2023 batch is now closed.
+                    <br>
+                    Stay tuned for 2024 applications
+                 </p>
+                </div>
+        </div>
+       
+    </div>
+    <div class="inimg"> 
+        <img src="students.jpg" class="image" alt="center">
+    
+        
+         <div class="centered">
+            <h2> BECOME A SOFTWARE ENGINEER AT DCKAP</h2>
+            <h3> FREE TRAINING + STIPEND + JOB<br> <center>OPPORTUNITY</center> </h3>
+         </div>
+         <br>
+         <br>
+         <div> 
+            <p class="para1"> 
+               <b> DCKAP பள்ளி</b> is an initiative by the DCKAP Community that strives to provide industry-ready skill training for the 
+                students who complete their <b>12th Grade/Polytechnic/Diploma colleges</b>. The training at DCKAP Palli happens through <br>
+                professionals from the community and industry experts.<br></p> 
+                
+               <p  class="para2"><b>DCKAP பள்ளி (Palli)</b> focuses on recruiting Youth from underprivileged or low-income communities who can’t afford an expensive college education or are looking for 
+                alternative education to enter the corporate world.<b>DCKAP பள்ளி (Palli)</b>  aims to mould students into well-rounded professionals ready to take up software jobs in our DCKAP Community after they are trained and made job-ready. We understand the need for students to settle down in their careers and we hope DCKAP Palli will not just uplift their life alone, but the whole family</p>
+         </div>
+         <div class="pichead">
+            <h2> Program Highlights</h2>
+
+         </div>
+        </div>
+       
+        
+         
+
+    </div>
+<div calss="row-conta">
+
+   
+
+<div class="row">
+    <div class="column">
+      <img src="program-duration.jpg" alt="Snow" style="width:84%">
+      <div class="text"> program-duration</div>
+    </div>
+    <div class="column">
+      <img src="bg-2.png" alt="Forest" style="width:84%">
+      <div class="text"> program-duration</div>
+    </div>
+    <div class="column">
+      <img src="course.jpg" alt="Mountains" style="width:84%">
+      <div class="text"> program-duration</div>
+    </div>
+    <div class="column">
+      <img src="bg-5.png" alt="Mountains" style="width:84%">
+      <div class="text"> program-duration</div>
+    </div>
+  </div>
+</div>
+    
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+
+</html>
