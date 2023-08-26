@@ -135,10 +135,19 @@ font-size: 87px;
 h2.heading1{
 color: #f11809;
 } */
-@media screen and (max-width: 600px) {
+@madia screen and(max-width:800px){
+  .topnav a{
+    float: left;
+    display: black;
+  }
+}
+
+
+
+/* @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 }
@@ -155,7 +164,7 @@ color: #f11809;
     display: block;
     text-align: left;
   }
-}
+} */
 
     /* ------------------------------------ */
 /*   
